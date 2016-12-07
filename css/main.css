@@ -64,9 +64,9 @@ hr.small {
 }
 
 .sidebar-nav {
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
-    width: 250px;
+    /*width: 250px;*/
     margin: 0;
     padding: 0;
     list-style: none;
@@ -122,7 +122,7 @@ hr.small {
 
 #sidebar-wrapper.active {
     right: 250px;
-    width: 250px;
+    width: 100%;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -211,6 +211,11 @@ footer h2,
 footer li,
 footer a{
     color: white;
+}
+
+.copyright{
+    color: #fff;
+    background-color: #055277;
 }
 
 #to-top {
