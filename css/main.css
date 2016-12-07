@@ -9,6 +9,13 @@ body {
     font-size: 16px;
 }
 
+/* Utilices */
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mt--65{
+    margin-top: -65px;
+}
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -21,8 +28,6 @@ body {
     font-size: 4.5em;
     font-weight: 700;
 }
-
-/* Custom Button Styles */
 
 .btn-dark {
     border-radius: 0;
@@ -37,14 +42,11 @@ body {
     background-color: rgba(0,0,0,0.7);
 }
 
-/* Custom Horizontal Rule */
-
 hr.small {
     max-width: 100px;
 }
 
 /* Side Menu */
-
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
@@ -106,9 +108,11 @@ hr.small {
     color: #fff;
     background: none;
 }
+
 .sidebar-brand img{
     width: 40%;
 }
+
 #menu-toggle {
     z-index: 1;
     position: fixed;
@@ -131,7 +135,6 @@ hr.small {
 }
 
 /* Header */
-
 .header {
     display: table;
     position: relative;
@@ -153,14 +156,13 @@ li.layer {
     z-index: 0;
     top:-15px;
 }
-/* About */
 
+/* About */
 .about {
     padding: 50px 0;
 }
 
 /* Services */
-
 .services {
     padding: 50px 0;
 }
@@ -169,12 +171,8 @@ li.layer {
     font-size: 16px;
 }
 
-.service-item {
-    margin-bottom: 30px;
-}
 
 /* Space */
-
 .space {
     display: table;
     width: 100%;
@@ -185,32 +183,36 @@ li.layer {
     background-size: cover;
     -o-background-size: cover;
 }
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
 
 /* Pack */
 #pack{
     padding: 50px 0;
 }
 
-/* Footer */
-
-footer {
-    margin: 100px 0px 0px;
-    background-color: #337AB7;
+.box h4{
+    margin-bottom: 30px;
 }
+
+.box{
+    background-color: lightgrey;
+    padding: 35px 0px 35px 0px;
+}
+
+/* Footer */
+#contact{
+    padding: 50px 0;
+}
+footer {
+    background-color: #337AB7;
+    padding-bottom: 50px;
+}
+
 footer h2,
 footer li,
 footer a{
     color: white;
 }
+
 #to-top {
     display: none;
     position: fixed;
